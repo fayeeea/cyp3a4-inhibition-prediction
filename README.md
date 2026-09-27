@@ -1,6 +1,6 @@
 # CYP3A4 Inhibition Prediction
 
-A machine learning project that predicts **CYP3A4 inhibition (`Inhibition`)** from molecular structures represented as SMILES strings. The workflow extracts molecular descriptors and fingerprints using RDKit and Mordred, selects informative features with a Random Forest, and trains an XGBoost regressor.
+A machine learning project that predicts **CYP3A4 inhibition** from molecular structures represented as SMILES strings. The workflow extracts molecular descriptors and fingerprints using RDKit and Mordred, selects informative features with a Random Forest, and trains an XGBoost regressor.
 
 ## Overview
 
@@ -81,7 +81,7 @@ The original molecular representations, including Mordred descriptors, RDKit des
 
 The same visualization was performed using the 113 features selected through Random Forest feature importance.
 
-![t-SNE Visualization of Selected Features](assets/filtered_sne.png)
+![t-SNE Visualization of Selected Features](assets/filtered_SNE.png)
 
 
 These visualizations provide a qualitative comparison of the molecular feature spaces before and after feature selection.
